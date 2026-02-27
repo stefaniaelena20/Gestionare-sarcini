@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="gQjtAEyvYnzVX7L_HEGm">
+    <mxGraphModel dx="1434" dy="412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kwktux02MCOXefNxs6hZ-1" value="Graphical User Interface" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-15" y="71" width="235" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-2" value="Data Access" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-7" y="455" width="239" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-3" value="Data Model" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="337" y="234" width="242" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-4" value="Business Logic" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-7" y="266" width="227" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-6" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.491;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-1" target="kwktux02MCOXefNxs6hZ-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="241" y="349" as="sourcePoint" />
+            <mxPoint x="401" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-7" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.474;entryY=0.091;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-4" target="kwktux02MCOXefNxs6hZ-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="241" y="349" as="sourcePoint" />
+            <mxPoint x="401" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-8" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.985;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.006;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-1" target="kwktux02MCOXefNxs6hZ-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="236" y="317" as="sourcePoint" />
+            <mxPoint x="401" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-9" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0;exitY=0;exitDx=227;exitDy=71;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=102.5;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-4" target="kwktux02MCOXefNxs6hZ-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="223" y="349" as="sourcePoint" />
+            <mxPoint x="401" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-10" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0;exitY=0;exitDx=239;exitDy=50.75;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-2" target="kwktux02MCOXefNxs6hZ-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="241" y="349" as="sourcePoint" />
+            <mxPoint x="401" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-11" value="Contains the implementation of the GUI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-346" y="89" width="227" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-12" value="Contains the implementation of TaskManagement and Utility" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-342" y="300" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-13" value="Contains the class for persisting data using serialization" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-327" y="512" width="183" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=91.25;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-11" target="kwktux02MCOXefNxs6hZ-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="220" as="sourcePoint" />
+            <mxPoint x="-46" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=42.5;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-12" target="kwktux02MCOXefNxs6hZ-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-96" y="280" as="sourcePoint" />
+            <mxPoint x="-46" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.006;entryY=0.472;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-13" target="kwktux02MCOXefNxs6hZ-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-96" y="494" as="sourcePoint" />
+            <mxPoint x="-46" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-18" value="Contains the implementation of Employee, Task, SimpleTask and ComplexTask" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="763" y="283" width="258" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="kwktux02MCOXefNxs6hZ-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=242;entryDy=73;entryPerimeter=0;" parent="1" source="kwktux02MCOXefNxs6hZ-18" target="kwktux02MCOXefNxs6hZ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="309" as="sourcePoint" />
+            <mxPoint x="775" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
